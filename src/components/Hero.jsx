@@ -24,8 +24,8 @@ const Hero = () => {
           <motion.h2
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 2, duration: 2 }}
-            className="text-4xl sm:text-7xl font-bold text-[#4473fd] mt-4"
+            transition={{ delay: 1, duration: 2 }}
+            className="text-4xl sm:text-7xl font-bold text-[#f5ff3d8f] mt-4"
           >
             Explore Our Mission
           </motion.h2>
@@ -40,9 +40,7 @@ const Hero = () => {
             }}
             className="static mt-16 max-w-[800px] text-[#47b5d6] text-lg mb-16 lg:max-w-[600px]"
           >
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui,
-            voluptates dolorum consectetur eligendi saepe nemo similique quas
-            eum odio dolores voluptas.
+        Check out our latest works. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ducimus est asperiores eius quasi commodi impedit ratione laborum, omnis atque! Obcaecati dolores optio, culpa nulla pariatur nam ea ipsam molestias officia consequa
           </motion.p>
           <div className="absolute right-40 mb-12">
             <motion.button

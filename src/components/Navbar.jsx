@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="fixed w-full h-[60px] flex justify-end items-center px-6 bg-slate-600 text-gray-300 text-lg font-medium">
+      <div className="fixed w-full h-[60px] flex justify-end items-center px-6 bg-slate-600 text-gray-300 text-lg font-medium mt-10 opacity-75">
         <ul className="hidden md:flex">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/works">Works</Link></li>
